@@ -131,3 +131,4 @@ This architecture is designed to support:
 ## Contributing
 
 [To be determined]
+zip -e secure.zip file.txt
