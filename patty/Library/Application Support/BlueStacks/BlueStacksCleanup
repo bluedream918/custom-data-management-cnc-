@@ -1,0 +1,37 @@
+#!/bin/bash
+
+echo "Starting Bst Cleanup : $(date +"%Y-%m-%d %H:%M:%S")"
+
+APP_PATH="/Applications/BlueStacks.app"
+
+declare -a paths=(
+    "/Applications/BlueStacksMIM.app"
+    "/Users/Shared/Library/Application Support/BlueStacks"
+)
+
+if [ ! -d "$APP_PATH" ]; then
+    echo "App has been removed. Cleaning up associated files..."
+
+    for path in "${paths[@]}"; do
+        if [ -e "$path" ]; then
+            echo "Removing: $path"
+            rm -rf "$path"
+            if [ $? -eq 0 ]; then
+                echo "Successfully removed: $path"
+            else
+                echo "Failed to remove: $path"
+            fi
+        else
+            echo "Path does not exist: $path"
+        fi
+    done
+
+    echo "Removing daemon files..."
+    rm -f /Library/LaunchDaemons/com.now.gg.BlueStacks.cleanup.plist
+    rm -f "/Library/Application Support/BlueStacks/BlueStacksCleanup"
+
+    echo "Unloading daemon..."
+    sudo launchctl bootout system /Library/LaunchDaemons/com.now.gg.BlueStacks.cleanup.plist
+
+    echo "Cleanup completed."
+fi
