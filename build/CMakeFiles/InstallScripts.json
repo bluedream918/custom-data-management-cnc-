@@ -1,0 +1,14 @@
+{
+	"InstallScripts" : 
+	[
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/core/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/render/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/rendering/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/plugins/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/apps/ide/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/apps/simulator/cmake_install.cmake",
+		"/Users/web/Downloads/manufacturing/cnc-ide/build/tests/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

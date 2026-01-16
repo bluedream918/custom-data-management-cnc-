@@ -1,0 +1,1 @@
+/usr/bin/c++  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cnc_simulator.dir/main.cpp.o CMakeFiles/cnc_simulator.dir/cli_runner.cpp.o -o ../../bin/cnc_simulator  ../../lib/libcnc_core.a

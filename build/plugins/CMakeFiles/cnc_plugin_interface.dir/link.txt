@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcnc_plugin_interface.a CMakeFiles/cnc_plugin_interface.dir/plugin_interface.cpp.o
+/usr/bin/ranlib ../lib/libcnc_plugin_interface.a

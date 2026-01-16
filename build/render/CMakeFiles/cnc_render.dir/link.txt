@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcnc_render.a CMakeFiles/cnc_render.dir/renderer.cpp.o CMakeFiles/cnc_render.dir/shader.cpp.o CMakeFiles/cnc_render.dir/mesh_renderer.cpp.o CMakeFiles/cnc_render.dir/viewport.cpp.o
+/usr/bin/ranlib ../lib/libcnc_render.a

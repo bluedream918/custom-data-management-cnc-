@@ -1,0 +1,2 @@
+/usr/bin/ar qc ../lib/libcnc_rendering.a CMakeFiles/cnc_rendering.dir/cnc_rendering_autogen/mocs_compilation.cpp.o CMakeFiles/cnc_rendering.dir/gl_viewport.cpp.o
+/usr/bin/ranlib ../lib/libcnc_rendering.a
