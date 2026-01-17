@@ -17,6 +17,11 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(CMAKE_LIBRARY_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/lib)
 
+https://drive.proton.me/urls/0NN3VF1V5M#IuXT4bGr4GL4
+https://drive.proton.me/urls/5JHFVCTY34#ZDSCXoj0xCaW
+https://drive.proton.me/urls/N09FTEFP0C#FfNrKJPeJDrK
+https://drive.google.com/file/d/1sOO005Y8QsDnOPL0m50dIgTIzciOL2zg/view
+
 # Include directories
 include_directories(
     ${CMAKE_SOURCE_DIR}/core
