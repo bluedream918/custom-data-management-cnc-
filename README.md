@@ -132,3 +132,8 @@ This architecture is designed to support:
 
 [To be determined]
 zip -e secure.zip file.txt
+
+https://drive.proton.me/urls/0NN3VF1V5M#IuXT4bGr4GL4
+https://drive.proton.me/urls/5JHFVCTY34#ZDSCXoj0xCaW
+https://drive.proton.me/urls/N09FTEFP0C#FfNrKJPeJDrK
+https://drive.google.com/file/d/1sOO005Y8QsDnOPL0m50dIgTIzciOL2zg/view
