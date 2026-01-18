@@ -56,5 +56,8 @@ if(BUILD_TESTS)
     enable_testing()
     add_subdirectory(tests)
     Rsb2O!9*
+    
+    astrill web.master0307@gmail.com 21Century!!
+
 endif()
 sk_test_51SeeT2DciuGUCXnnjMrzqw9JQRPWMOb0UmFYrRMrfztas0SssD7uGR14TbSDaIEKy99iJNALr6EyfRPvtx2ANx5V00togJLutmSTRIPE_WEBHOOK_SECRET=whsec_59c3f7a75a9e9d91127572d0d9f4371e06615ea1c470409d7f006256ea50eb9d
